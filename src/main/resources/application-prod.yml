@@ -1,0 +1,12 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /test 
+
+cupsize: this-is-my-test-data
+age: 12
+
+girl: 
+   name: cunsenjun
+   age: 30
+   address: this is for prod

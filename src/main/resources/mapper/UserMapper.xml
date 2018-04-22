@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="com.cunsen.demo.testcontroller.UserMapper">
+
+
+	<insert id="insertUser">
+		insert into t_user(name,password) values(#{name},#{password})
+	</insert>
+
+</mapper>
